@@ -50,12 +50,12 @@ const Logo = () => {
   }
 
   return (
-    <Link href="/" className="w-[9rem] h-[2.7rem] relative block">
+    <Link href="/" className="w-[9rem] h-[2.7rem]  relative block">
       <img
         src={data.identity_image}
         alt="Sunmed"
         fill
-        className="object-cover"
+        className="object-cover w-full h-full"
         priority
 
       />
